@@ -1,0 +1,50 @@
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form,
+  #word-info,
+  #pronunciation-button {
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    form,
+    #word-info,
+    #pronunciation-button {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+
+/* Tema claro */
+.light-theme {
+    --background-color: white;
+    --text-color: black;
+  }
+  
+  /* Tema oscuro */
+  .dark-theme {
+    --background-color: black;
+    --text-color: white;
+  }
+  button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

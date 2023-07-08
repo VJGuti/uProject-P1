@@ -1,0 +1,15 @@
+{
+  "name": "tfrontend1-4.1-part1",
+  "version": "1.0.0",
+  "description": "Proyecto de Universidad Materia Front End Part 1",
+  "main": "scripts.js",
+  "scripts": {
+    "dev": "nodemon src/scripts.js",
+    "start": "node src/scripts.js"
+  },
+  "author": "Victor Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
